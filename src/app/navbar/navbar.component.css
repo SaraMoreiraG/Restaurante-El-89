@@ -1,13 +1,15 @@
 .wrapper {
 	background-color: black;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-	height: 50px;
+	height: 120px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
+	padding: 0 10px;
+	margin: 0 auto;
 }
 
 .wrapper a {
@@ -20,3 +22,30 @@
 .wrapper a:hover {
 	color: #fdca33;
 }
+
+.fa-solid {
+	font-family: "Font Awesome 6 Free";
+font-weight: 900;
+font-size: 30px;
+}
+ul {
+	list-style: none;
+}
+.logo-menu-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+
+  .menu {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+  }
+
+  @media screen and (max-width: 992px) {
+	/* Hide the menu on smaller screens */
+	nav {
+	  display: none;
+	}
+  }
