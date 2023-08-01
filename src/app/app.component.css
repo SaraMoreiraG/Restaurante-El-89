@@ -2,6 +2,8 @@
 section {
 	height: 100vh;
 	background-position: center;
+	color: #fff;
+	padding-left: 5em;
 }
 
 #home, #special-dishes, #offer, #our-team, #gallery, #contact {
@@ -29,4 +31,13 @@ section {
 #offer {
 	background-image: url('https://restfood.onlywebcoding.com.ua/images/bg-offer.png');
 	height: 50vh !important;
+}
+
+#home h1 {
+	font-size: 84px;
+	margin-bottom: 30px;
+	font-weight: 900;
+}
+#home .btn {
+	margin-top: 30px;
 }
