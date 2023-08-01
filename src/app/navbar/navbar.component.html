@@ -1,26 +1,43 @@
 <div class="wrapper flex-row">
-	<!-- Logo for both small and large screens -->
-	<a id="logo" href="#home">
-	  <img src="https://restfood.onlywebcoding.com.ua/images/logo.png" />
-	</a>
+  <!-- Logo for both small and large screens -->
+  <a id="logo" href="#home">
+    <img src="https://restfood.onlywebcoding.com.ua/images/logo.png" />
+  </a>
 
-	<!-- Open menu button for smaller screens -->
-	<a id="openmenu" href="#" *ngIf="isSmallScreen" (click)="toggleMenu()">
-	  <i class="fa-solid fa-bars"></i>
-	</a>
+  <!-- Open menu button for smaller screens -->
+  <a id="openmenu" href="#" *ngIf="isSmallScreen" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+    aria-controls="offcanvasScrolling">
+    <i class="fa-solid fa-bars"></i>
+  </a>
 
-	<!-- Menu for larger screens -->
-	<nav id="nav" [ngStyle]="{ 'display': showMenu || !isSmallScreen ? 'flex' : 'none' }">
-	  <a id="closemenu" href="#" *ngIf="isSmallScreen" (click)="toggleMenu()">
-		<i class="fa-solid fa-xmark"></i>
-	  </a>
-	  <ul class="menu">
-		<li><a href="#home">HOME</a></li>
-		<li><a href="#about-us">ABOUT US</a></li>
-		<li><a href="#our-team">OUR TEAM</a></li>
-		<li><a href="#menu">MENU</a></li>
-		<li><a href="#gallery">GALLERY</a></li>
-		<li><a href="#contact">CONTACT</a></li>
-	  </ul>
-	</nav>
+  <!-- Menu for larger screens -->
+  <nav id="nav" [ngStyle]="{ 'display': showMenu || !isSmallScreen ? 'flex' : 'none' }">
+    <ul class="menu-big">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about-us">ABOUT US</a></li>
+      <li><a href="#our-team">TEAM</a></li>
+      <li><a href="#menu">MENU</a></li>
+      <li><a href="#gallery">GALLERY</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!-- Offcanvas for smaller screens -->
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+  id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header justify-content-end">
+	<i class="fa-solid fa-xmark" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+</div>
+  <div class="offcanvas-body">
+    <!-- Menu for the offcanvas -->
+    <ul class="menu-small">
+      <li class="mb-3"><a href="#home">HOME</a></li>
+      <li class="mb-3"><a href="#about-us">ABOUT US</a></li>
+      <li class="mb-3"><a href="#our-team">OUR TEAM</a></li>
+      <li class="mb-3"><a href="#menu">MENU</a></li>
+      <li class="mb-3"><a href="#gallery">GALLERY</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
   </div>
+</div>

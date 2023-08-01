@@ -1,3 +1,12 @@
+a {
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 1.5;
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 5px 10px;
+}
 .wrapper {
 	background-color: black;
 	display: flex;
@@ -11,41 +20,39 @@
 	padding: 0 10px;
 	margin: 0 auto;
 }
-
-.wrapper a {
-	color: white;
-	text-decoration: none;
-	margin: 0 10px;
-	padding: 5px 10px;
+.transparent-bg {
+  background-color: transparent;
 }
-
-.wrapper a:hover {
+.wrapper a:hover,
+.fa-solid:hover {
 	color: #fdca33;
+	cursor: pointer;
 }
-
 .fa-solid {
 	font-family: "Font Awesome 6 Free";
-font-weight: 900;
-font-size: 30px;
+	font-weight: 900;
+	font-size: 30px;
 }
-ul {
-	list-style: none;
-}
-.logo-menu-wrapper {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-  }
-
-  .menu {
+.menu-big {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
-  }
-
-  @media screen and (max-width: 992px) {
-	/* Hide the menu on smaller screens */
+}
+@media screen and (max-width: 992px) {
+/* Hide the menu on smaller screens */
 	nav {
-	  display: none;
+		display: none;
 	}
-  }
+}
+.menu-small{
+	list-style: none;
+}
+.offcanvas {
+	background-color: #000;
+	color: #fff;
+}
+.btn-close-white {
+	color: #fff;
+	margin-top: 5px;
+	font-size: 30px;
+}

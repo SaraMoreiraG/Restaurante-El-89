@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+	background-color: #000;
+}
+/* body {
+	font-family: 'Halant', serif;
+	font-weight: 400;
+	line-height: 1.5;
+	font-size: 18px;
+} */

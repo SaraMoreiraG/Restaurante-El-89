@@ -8,6 +8,7 @@ import { Component, HostListener } from '@angular/core';
 export class NavbarComponent {
   showMenu = false;
   isSmallScreen = window.innerWidth <= 992;
+  isTransparentBg = true;
 
   toggleMenu() {
     this.showMenu = !this.showMenu;
@@ -19,6 +20,17 @@ export class NavbarComponent {
     // Hide the menu when resizing from large to small screen
     if (this.isSmallScreen) {
       this.showMenu = false;
+    }
+  }
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    // Check if the user has scrolled and remove the transparent background class
+    if (window.scrollY > 120) {
+      this.isTransparentBg = false;
+    }
+    if (window.scrollY < 120) {
+      this.isTransparentBg = true;
     }
   }
 
