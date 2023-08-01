@@ -1,0 +1,22 @@
+.wrapper {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.wrapper a {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 5px 10px;
+}
+
+.wrapper a:hover {
+	color: #fdca33;
+}

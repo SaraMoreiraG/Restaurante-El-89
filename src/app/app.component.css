@@ -1,0 +1,42 @@
+body {
+	font-family: 'Halant', serif;
+	font-weight: 400;
+	line-height: 1.5;
+	font-size: 18px;
+	color: #fff;
+}
+a{
+	color: #fff;
+}
+/****** SECTIONS ******/
+section {
+	height: 100vh;
+	background-position: center;
+}
+
+#home, #special-dishes, #offer, #our-team, #gallery, #contact {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#home, #offer {
+	background-attachment: fixed;
+}
+
+#home {
+	background-image: url('https://restfood.onlywebcoding.com.ua/images/bg-header.png');
+}
+
+#special-dishes, #our-team, #gallery, #contact {
+	background-color: #000;
+}
+
+#about-us, #menu, #book-table {
+	background-image: url('https://restfood.onlywebcoding.com.ua/images/bg-pattern.jpg');
+	background-repeat: repeat;
+}
+
+#offer {
+	background-image: url('https://restfood.onlywebcoding.com.ua/images/bg-offer.png');
+	height: 50vh !important;
+}
