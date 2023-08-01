@@ -9,6 +9,7 @@ section {
 #home, #special-dishes, #offer, #our-team, #gallery, #contact {
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding: 100px 5em;
 }
 
 #home, #offer {
@@ -40,4 +41,14 @@ section {
 }
 #home .btn {
 	margin-top: 30px;
+}
+.title-center{
+	text-align: center;
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.title-center p{
+	color: #b8b8b8;
 }

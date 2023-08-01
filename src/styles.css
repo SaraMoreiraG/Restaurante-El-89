@@ -6,6 +6,16 @@ h1, h2, h3, h4, h5 {
 	text-transform: uppercase;
 	line-height: 1.2;
 }
+h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	position: relative;
+	padding-bottom: 20px;
+	background-image: url("https://restfood.onlywebcoding.com.ua/images/bg-title.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 80px;
+}
 p{
 	font-family: 'Halant', serif;
 	font-weight: 400;
