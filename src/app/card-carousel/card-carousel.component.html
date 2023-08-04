@@ -1,13 +1,15 @@
 <div class="container mt-5">
-    <carousel [itemsPerSlide]="4" [interval]="5000" [noWrap]="false" [showIndicators]="false">
-      <slide *ngFor="let card of cards">
-        <div class="card">
-          <img [src]="card.img" />
-          <h3>{{ card.title }}</h3>
-          <p>{{ card.description }}</p>
-          <p>{{ card.price }}</p>
-        </div>
-      </slide>
-    </carousel>
-  </div>
-  
+  <carousel #carousel [itemsPerSlide]="4" [singleSlideOffset]="true" [interval]="0" (mouseenter)="stopAutoplay()" (mouseleave)="startAutoplay()" noControls>
+    <slide *ngFor="let card of carouselItems">
+      <div class="card">
+        <img [src]="card.img" />
+        <h3>{{ card.title }}</h3>
+        <p>{{ card.description }}</p>
+        <p>{{ card.price }}</p>
+      </div>
+    </slide>
+  </carousel>
+
+  <button (click)="slidePrev()">Previous</button>
+  <button (click)="slideNext()">Next</button>
+</div>
