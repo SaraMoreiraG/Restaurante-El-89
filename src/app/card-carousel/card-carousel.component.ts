@@ -1,20 +1,21 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { CarouselComponent } from 'ngx-bootstrap/carousel';
+import { CarouselComponent, CarouselConfig } from 'ngx-bootstrap/carousel';
 
 @Component({
   selector: 'card-carousel',
   templateUrl: './card-carousel.component.html',
+  providers: [
+    { provide: CarouselConfig, useValue: { showIndicators: false, showControls: false } }
+  ],
   styleUrls: ['./card-carousel.component.css'],
 })
 export class CardCarouselComponent implements OnInit {
   cards: { img: string; title: string; description: string; price: string }[] = [
     { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-1.png', title: 'BURGER', description: 'Lorem ipsum dolor sit, amet consectetur adipisci velit', price: '$12,3' },
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-1.png', title: 'Card 2', description: 'Description for Card 2', price: '20$' },
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-1.png', title: 'Card 3', description: 'Description for Card 3', price: '15$' },
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-1.png', title: 'Card 4', description: 'Description for Card 4', price: '18$' },
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-1.png', title: 'Card 5', description: 'Description for Card 5', price: '22$' },
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-1.png', title: 'Card 6', description: 'Description for Card 6', price: '12$' },
-    // Add more cards as needed
+    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-3.jpg', title: 'Beef Burger Meal', description: 'Lorem ipsum dolor sit, amet consectetur adipisci velit', price: '20$' },
+    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-4.jpg', title: 'Double Cheese Pizza', description: 'Lorem ipsum dolor sit, amet consectetur adipisci velit', price: '15$' },
+    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-5.png', title: 'Ceaser Salad', description: 'Lorem ipsum dolor sit, amet consectetur adipisci velit', price: '18$' },
+    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-2.jpg', title: 'Pasta', description: 'Lorem ipsum dolor sit, amet consectetur adipisci velit', price: '22$' },
   ];
 
   // Get a reference to the carousel component
@@ -32,7 +33,7 @@ export class CardCarouselComponent implements OnInit {
   interval: any;
 
   startAutoplay() {
-    // Set autoplay interval to 5 seconds (5000 ms)
+    // Set autoplay interval to 3 seconds (3000 ms)
     this.interval = setInterval(() => {
       this.slideNext();
     }, 3000);
