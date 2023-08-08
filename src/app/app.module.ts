@@ -6,12 +6,14 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CardCarouselComponent } from './card-carousel/card-carousel.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CardCarouselComponent
+    CardCarouselComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

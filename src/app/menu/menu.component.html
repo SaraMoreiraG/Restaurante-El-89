@@ -1,0 +1,28 @@
+<section id="menu">
+	<div class="title-center">
+	  <h2>our menu</h2>
+	</div>
+	<div class="wrapper flex-row wrapp-menu">
+	  <ul class="list-menu">
+		<li *ngFor="let tab of tabs">
+		  <a [class.active]="activeTab === tab" (click)="setActiveTab(tab)">{{ tab }}</a>
+		</li>
+	  </ul>
+	</div>
+	<div class="wrapper wrapp-menu-item">
+	  <ng-container *ngFor="let item of getFilteredItems()">
+		<div class="menu-item flex-row zoom-gallery" *ngIf="item.tabs.includes(activeTab)">
+		  <div class="single-menu-item">
+			<a href="{{ item.imageUrl }}">
+			  <img src="{{ item.imageUrl }}" alt="{{ item.name }}" />
+			</a>
+			<div class="single-menu-item-content">
+			  <h3>{{ item.name }}</h3>
+			  <p>{{ item.description }}</p>
+			  <p class="price">{{ item.price }}</p>
+			</div>
+		  </div>
+		</div>
+	  </ng-container>
+	</div>
+  </section>

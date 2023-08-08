@@ -103,6 +103,7 @@ h6 {
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   line-height: 1.2;
+  font-weight: bold;
 }
 
 button {
@@ -114,6 +115,7 @@ button {
   display: inline-block;
   color: #000;
   text-transform: uppercase;
+  font-weight: bold;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 3px;
@@ -480,6 +482,7 @@ button {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   border-radius: 50%;
+  font-family: 'FontAwesome' !important;
 }
 
 .wrapper.flex-row .about-content {
@@ -567,6 +570,7 @@ button {
 #offer h2 {
   font-size: 40px;
   margin-bottom: 20px;
+  background-image: none;
 }
 
 /* -------------------------------------------------------
@@ -624,6 +628,7 @@ button {
 .about-chefs .chef-social li a {
   display: inline-block;
   text-decoration: none;
+  font-family: 'FontAwesome' !important;
 }
 
 /* -------------------------------------------------------
