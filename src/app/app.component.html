@@ -1,230 +1,234 @@
 <navbar></navbar>
 
-<section id="home" class="flex-row" style="background-image:url('https://restfood.onlywebcoding.com.ua/images/bg-header.png');">
-  <div class="wrapper home-content">
-    <div>
-      <h1>BEST QUALITY FOOD</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias provident laborum, recusandae delectus corrupti reprehenderit error distinctio eligendi qui consequuntur officia.</p>
-      <button class="btn booking-scroll" href="#book-table">BOOK A TABLE</button>
+<main>
+  <section id="home" class="flex-row" style="background-image:url('https://restfood.onlywebcoding.com.ua/images/bg-header.png');">
+    <div class="wrapper home-content">
+      <div>
+        <h1>BEST QUALITY FOOD</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias provident laborum, recusandae delectus corrupti reprehenderit error distinctio eligendi qui consequuntur officia.</p>
+        <button class="btn booking-scroll" (click)="scrollToBookingTable()">BOOK A TABLE</button>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="special-dishes">
-  <div class="title-center">
-    <h2>OUR SPECIAL DISHES</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores.</p>
-  </div>
-  <div class="wrapper">
-    <card-carousel></card-carousel>
-  </div>
-</section>
-
-<section id="about-us" style="background-image: url('https://restfood.onlywebcoding.com.ua/images/bg-pattern.jpg');">
-  <div class="wrapper flex-row">
-    <div class="about-img">
-      <img src="https://restfood.onlywebcoding.com.ua/images/about-big.jpg" />
-      <a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><i class="fa-solid fa-play"></i></a>
+  <section id="special-dishes">
+    <div class="title-center">
+      <h2>OUR SPECIAL DISHES</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores.</p>
     </div>
-    <div class="about-content">
-      <h2>GOOD FOOD FOR YOUR ALL DAY GOOD MOOD</h2>
-      <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.</p>
-      <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.</p>
-      <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.</p>
-      <div class="advantage flex-row">
-        <div>
-          <img src="https://restfood.onlywebcoding.com.ua/images/advantage-1.png" />
-          <p>EXPERIENCED CHEFS</p>
+    <div class="wrapper">
+      <card-carousel></card-carousel>
+    </div>
+  </section>
+
+  <section id="about-us">
+    <div class="wrapper flex-row">
+      <div class="about-img">
+        <img src="https://restfood.onlywebcoding.com.ua/images/about-big.jpg" />
+        <a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><i class="fa-solid fa-play"></i></a>
+      </div>
+      <div class="about-content">
+        <h2>GOOD FOOD FOR YOUR ALL DAY GOOD MOOD</h2>
+        <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.</p>
+        <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.</p>
+        <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.</p>
+        <div class="advantage flex-row">
+          <div>
+            <img src="https://restfood.onlywebcoding.com.ua/images/advantage-1.png" />
+            <p>EXPERIENCED CHEFS</p>
+          </div>
+          <div>
+            <img src="https://restfood.onlywebcoding.com.ua/images/advantage-2.png" />
+            <p>ORIGINAL RECIPES</p>
+          </div>
+          <div>
+            <img src="https://restfood.onlywebcoding.com.ua/images/advantage-3.png" />
+            <p>FRESH INGREDIENTS</p>
+          </div>
         </div>
-        <div>
-          <img src="https://restfood.onlywebcoding.com.ua/images/advantage-2.png" />
-          <p>ORIGINAL RECIPES</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="offer" style="background-image: url('https://restfood.onlywebcoding.com.ua/images/bg-offer.png');">
+    <div class="wrapper">
+      <h2>DOUBLE CHEESE PIZZA
+        <br> 30% OFF FRIDAY ONLY
+      </h2>
+      <a class="btn booking-scroll" (click)="scrollToBookingTable()">book a table</a>
+    </div>
+  </section>
+
+  <section id="chefs">
+    <div class="title-center">
+      <h2>our best chef</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores.</p>
+    </div>
+    <div class="wrapper flex-row">
+      <div class="chefs-item">
+        <img src="https://restfood.onlywebcoding.com.ua/images/chef-1.jpg" />
+        <div class="about-chefs">
+          <h3>francisco moreira</h3>
+          <p>food chef</p>
+          <ul class="chef-social">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
         </div>
-        <div>
-          <img src="https://restfood.onlywebcoding.com.ua/images/advantage-3.png" />
-          <p>FRESH INGREDIENTS</p>
+      </div>
+      <div class="chefs-item">
+        <img src="https://restfood.onlywebcoding.com.ua/images/chef-2.jpg" />
+        <div class="about-chefs">
+          <h3>candida melgo</h3>
+          <p>food chef</p>
+          <ul class="chef-social">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="chefs-item">
+        <img src="https://restfood.onlywebcoding.com.ua/images/chef-3.jpg" />
+        <div class="about-chefs">
+          <h3>miguel moreira</h3>
+          <p>food chef</p>
+          <ul class="chef-social">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="chefs-item">
+        <img src="https://restfood.onlywebcoding.com.ua/images/chef-4.jpg" />
+        <div class="about-chefs">
+          <h3>chung lee</h3>
+          <p>food chef</p>
+          <ul class="chef-social">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="offer" style="background-image: url('https://restfood.onlywebcoding.com.ua/images/bg-offer.png');">
-  <div class="wrapper">
-    <h2>DOUBLE CHEESE PIZZA
-      <br> 30% OFF FRIDAY ONLY
-    </h2>
-    <a class="btn booking-scroll">book a table</a>
-  </div>
-</section>
+  <menu></menu>
 
-<section id="chefs">
-  <div class="title-center">
-    <h2>our best chef</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores.</p>
-  </div>
-  <div class="wrapper flex-row">
-    <div class="chefs-item">
-      <img src="https://restfood.onlywebcoding.com.ua/images/chef-1.jpg" />
-      <div class="about-chefs">
-        <h3>francisco moreira</h3>
-        <p>food chef</p>
-        <ul class="chef-social">
-          <li>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
+  <section id="gallery">
+    <div class="title-center">
+      <h2>Gallery</h2>
     </div>
-    <div class="chefs-item">
-      <img src="https://restfood.onlywebcoding.com.ua/images/chef-2.jpg" />
-      <div class="about-chefs">
-        <h3>candida melgo</h3>
-        <p>food chef</p>
-        <ul class="chef-social">
-          <li>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
+    <div class="wrapper flex-row gallery-item zoom-gallery">
+      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-1.jpg">
+        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-1.jpg">
+      </a>
+      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-2.jpg">
+        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-2.jpg">
+      </a>
+      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-3.jpg">
+        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-3.jpg">
+      </a>
+      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-4.jpg">
+        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-4.jpg">
+      </a>
+      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-5.jpg">
+        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-5.jpg">
+      </a>
+      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-6.jpg">
+        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-6.jpg">
+      </a>
     </div>
-    <div class="chefs-item">
-      <img src="https://restfood.onlywebcoding.com.ua/images/chef-3.jpg" />
-      <div class="about-chefs">
-        <h3>miguel moreira</h3>
-        <p>food chef</p>
-        <ul class="chef-social">
-          <li>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
+  </section>
+
+  <section id="booking-table">
+    <div class="title-center">
+      <h2>Book a table</h2>
     </div>
-    <div class="chefs-item">
-      <img src="https://restfood.onlywebcoding.com.ua/images/chef-4.jpg" />
-      <div class="about-chefs">
-        <h3>chung lee</h3>
-        <p>food chef</p>
-        <ul class="chef-social">
-          <li>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-        </ul>
+    <div class="wrapper flex-row wrapp-booking-form">
+      <div class="booking-form">
+        <form method="post">
+          <div class="wrapp-input-group flex-row">
+            <div>
+              <p><label for="name">Name</label></p>
+              <input type="text" placeholder="Name" id="name" name="'name" />
+            </div>
+            <div>
+              <p><label for="lastname">Last Name</label></p>
+              <input type="text" placeholder="Last Name" id="lastname" name="'lastname" />
+            </div>
+            <div>
+              <p><label for="phone">Phone</label></p>
+              <input type="tel" placeholder="Phone" id="phone" name="'phone" />
+            </div>
+            <div>
+              <p><label for="email">Email</label></p>
+              <input type="email" placeholder="Email" id="email" name="'email" />
+            </div>
+            <div>
+              <p><label for="date">Date</label></p>
+              <input type="text" placeholder="mm-dd-yy" id="date" name="'date" />
+            </div>
+            <div>
+              <p><label for="time">Time</label></p>
+              <input type="text" placeholder="12:00 AM" id="time" name="'time" />
+            </div>
+            <button type="submit" id="send" class="btn">Book a table</button>
+          </div>
+          <p class="result">
+            <span class="send">Thanks for booking. We will contact you shortly.</span>
+          </p>
+        </form>
       </div>
-    </div>
-  </div>
-</section>
-
-<menu></menu>
-
-<section id="gallery">
-  <div class="title-center">
-    <h2>Gallery</h2>
-  </div>
-  <div class="wrapper flex-row gallery-item zoom-gallery">
-    <a href="https://restfood.onlywebcoding.com.ua/images/gallery-1.jpg">
-      <img src="https://restfood.onlywebcoding.com.ua/images/gallery-1.jpg">
-    </a>
-    <a href="https://restfood.onlywebcoding.com.ua/images/gallery-2.jpg">
-      <img src="https://restfood.onlywebcoding.com.ua/images/gallery-2.jpg">
-    </a>
-    <a href="https://restfood.onlywebcoding.com.ua/images/gallery-3.jpg">
-      <img src="https://restfood.onlywebcoding.com.ua/images/gallery-3.jpg">
-    </a>
-    <a href="https://restfood.onlywebcoding.com.ua/images/gallery-4.jpg">
-      <img src="https://restfood.onlywebcoding.com.ua/images/gallery-4.jpg">
-    </a>
-    <a href="https://restfood.onlywebcoding.com.ua/images/gallery-5.jpg">
-      <img src="https://restfood.onlywebcoding.com.ua/images/gallery-5.jpg">
-    </a>
-    <a href="https://restfood.onlywebcoding.com.ua/images/gallery-6.jpg">
-      <img src="https://restfood.onlywebcoding.com.ua/images/gallery-6.jpg">
-    </a>
-  </div>
-</section>
-
-<section id="booking-table">
-  <div class="title-center">
-    <h2>Book a table</h2>
-  </div>
-  <div class="wrapper flex-row wrapp-booking-form">
-    <div class="booking-form">
-      <form method="post">
-        <div class="wrapp-input-group flex-row">
-          <div>
-            <p><label for="name">Name</label></p>
-            <input type="text" placeholder="Name" id="name" name="'name" />
-          </div>
-          <div>
-            <p><label for="lastname">Last Name</label></p>
-            <input type="text" placeholder="Last Name" id="lastname" name="'lastname" />
-          </div>
-          <div>
-            <p><label for="phone">Phone</label></p>
-            <input type="tel" placeholder="Phone" id="phone" name="'phone" />
-          </div>
-          <div>
-            <p><label for="email">Email</label></p>
-            <input type="email" placeholder="Email" id="email" name="'email" />
-          </div>
-          <div>
-            <p><label for="date">Date</label></p>
-            <input type="text" placeholder="mm-dd-yy" id="date" name="'date" />
-          </div>
-          <div>
-            <p><label for="time">Time</label></p>
-            <input type="text" placeholder="12:00 AM" id="time" name="'time" />
-          </div>
-          <button type="submit" id="send" class="btn">Book a table</button>
+      <div class="working-hours">
+        <h3>Opening Hours</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, inventore hic nulla, provident laudantium voluptate ipsa eligendi commodi mollitia vero animi, repudiandae quidem minima est sint sapiente quas iure deleniti.</p>
+        <div class="flex-row table-hours">
+          <p>Monday - Friday</p>
+          <p>8AM - 6PM</p>
         </div>
-        <p class="result">
-          <span class="send">Thanks for booking. We will contact you shortly.</span>
-        </p>
-      </form>
-    </div>
-    <div class="working-hours">
-      <h3>Opening Hours</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, inventore hic nulla, provident laudantium voluptate ipsa eligendi commodi mollitia vero animi, repudiandae quidem minima est sint sapiente quas iure deleniti.</p>
-      <div class="flex-row table-hours">
-        <p>Monday - Friday</p>
-        <p>8AM - 6PM</p>
-      </div>
-      <div class="flex-row table-hours">
-        <p>Saturday</p>
-        <p>9AM - 5PM</p>
-      </div>
-      <div class="flex-row table-hours">
-        <p>Sunday</p>
-        <p>9AM - 4PM</p>
+        <div class="flex-row table-hours">
+          <p>Saturday</p>
+          <p>9AM - 5PM</p>
+        </div>
+        <div class="flex-row table-hours">
+          <p>Sunday</p>
+          <p>9AM - 4PM</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</main>
 
-<section id="contact">
-  <!-- Your content for the seventh section here -->
-</section>
+<footer id="contacts"></footer>
+
+<a class="btn" id="scroll-top" href="#">
+  <i class="fa-solid fa-arrow-up-long"></i>
+</a>
