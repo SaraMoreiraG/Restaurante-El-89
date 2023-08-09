@@ -11,7 +11,7 @@ interface MenuItem {
 @Component({
   selector: 'menu',
   templateUrl: './menu.component.html',
-  styleUrls: ['../app.component.css']
+  styleUrls: ['../app.component.css'],
 })
 export class MenuComponent {
   activeTab: string = 'all';
@@ -20,7 +20,7 @@ export class MenuComponent {
 
   menuItems: MenuItem[] = [
     {
-      tabs: ['all', 'pizzas'],
+      tabs: ['all', 'pizzas', 'deserts'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-1.jpg',
       name: 'Double Cheese Pizza',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
@@ -34,7 +34,7 @@ export class MenuComponent {
       price: '$23.99'
     },
     {
-      tabs: ['all', 'burguers'],
+      tabs: ['all', 'burguers', 'steaks'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-3.png',
       name: 'DOUBLE MAC BURGER',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
@@ -48,14 +48,14 @@ export class MenuComponent {
       price: '$23.99'
     },
     {
-      tabs: ['all', 'burguers'],
+      tabs: ['all', 'burguers', 'steaks'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-5.jpg',
       name: 'BEEF CHEESE BURGER',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
       price: '$23.99'
     },
     {
-      tabs: ['all', 'pizzas'],
+      tabs: ['all', 'pizzas', 'steaks'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-6.jpg',
       name: 'GRAND ITALIANO PIZZA',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
@@ -69,7 +69,7 @@ export class MenuComponent {
       price: '$23.99'
     },
     {
-      tabs: ['all', 'burguers'],
+      tabs: ['all', 'burguers', 'steaks'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-8.jpg',
       name: 'CHICKEN BURGER',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
@@ -79,6 +79,10 @@ export class MenuComponent {
 
   getFilteredItems(): MenuItem[] {
     return this.menuItems.filter(item => item.tabs.includes(this.activeTab));
+  }
+
+  itemInCurrentTab(item: MenuItem): boolean {
+    return item.tabs.includes(this.activeTab);
   }
 
   setActiveTab(tab: string) {
