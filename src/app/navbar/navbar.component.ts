@@ -39,7 +39,7 @@ export class NavbarComponent {
   @HostListener('window:scroll', [])
   onWindowScroll() {
     // Check if the user has scrolled and remove the transparent background class
-    this.isTransparentBg = window.scrollY < 120;
+    this.isTransparentBg = window.scrollY < 90;
   }
 
   constructor() {

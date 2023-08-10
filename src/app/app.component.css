@@ -337,7 +337,7 @@ button {
 }
 
 #home {
-  margin-top: 120px;
+  height: 100vh;
 }
 
 #contacts .title-center h2,
