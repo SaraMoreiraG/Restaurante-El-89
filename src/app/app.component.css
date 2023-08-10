@@ -309,6 +309,7 @@ button {
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
+  scroll-margin-top: 80px;
 }
 
 #special-dishes,
@@ -321,11 +322,23 @@ button {
   padding: 100px 0px;
 }
 
+#home {
+  background-image: url("https://restfood.onlywebcoding.com.ua/images/bg-header.png");
+}
+
 #booking-table,
 #menu,
 #about-us {
   background-image: url("https://restfood.onlywebcoding.com.ua/images/bg-pattern.jpg");
   background-repeat: repeat;
+}
+
+#offer {
+  background-image: url("https://restfood.onlywebcoding.com.ua/images/bg-offer.png");
+}
+
+#home {
+  margin-top: 120px;
 }
 
 #contacts .title-center h2,

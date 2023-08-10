@@ -1,7 +1,7 @@
 <navbar></navbar>
 
 <main>
-  <section id="home" class="flex-row" style="background-image:url('https://restfood.onlywebcoding.com.ua/images/bg-header.png');">
+  <section id="home" class="flex-row">
     <div class="wrapper home-content">
       <div>
         <h1>BEST QUALITY FOOD</h1>
@@ -50,7 +50,7 @@
     </div>
   </section>
 
-  <section id="offer" style="background-image: url('https://restfood.onlywebcoding.com.ua/images/bg-offer.png');">
+  <section id="offer">
     <div class="wrapper">
       <h2>DOUBLE CHEESE PIZZA
         <br> 30% OFF FRIDAY ONLY
@@ -229,6 +229,6 @@
 
 <footer id="contacts"></footer>
 
-<a class="btn" id="scroll-top" href="#">
+<a class="btn" id="scroll-top" href="#" *ngIf="hasScrolledPastHome">
   <i class="fa-solid fa-arrow-up-long"></i>
 </a>
