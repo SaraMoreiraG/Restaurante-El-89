@@ -10,8 +10,21 @@ export class NavbarComponent {
   isSmallScreen = window.innerWidth <= 992;
   isTransparentBg = true;
 
+  menuItems = [
+    { label: 'HOME', link: '#home' },
+    { label: 'ABOUT US', link: '#about-us' },
+    { label: 'TEAM', link: '#chefs' },
+    { label: 'MENU', link: '#menu' },
+    { label: 'GALLERY', link: '#gallery' },
+    { label: 'CONTACT', link: '#contacts' }
+  ];
+
   toggleMenu() {
     this.showMenu = !this.showMenu;
+  }
+
+  closeMenu() {
+    this.showMenu = false;
   }
 
   @HostListener('window:resize', ['$event'])
@@ -26,12 +39,7 @@ export class NavbarComponent {
   @HostListener('window:scroll', [])
   onWindowScroll() {
     // Check if the user has scrolled and remove the transparent background class
-    if (window.scrollY > 120) {
-      this.isTransparentBg = false;
-    }
-    if (window.scrollY < 120) {
-      this.isTransparentBg = true;
-    }
+    this.isTransparentBg = window.scrollY < 120;
   }
 
   constructor() {
