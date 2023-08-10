@@ -153,7 +153,6 @@ button {
 
 .title-center {
   text-align: center;
-  max-width: 600px;
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
@@ -348,7 +347,6 @@ button {
 #special-dishes .title-center h2,
 .wrapper.flex-row .about-content h2,
 #chefs .title-center h2 {
-  font-size: 40px;
   margin-bottom: 20px;
   position: relative;
   padding-bottom: 20px;
@@ -409,12 +407,7 @@ button {
 }
 
 .wrapper.home-content h1 {
-  font-size: 80px;
   margin-bottom: 30px;
-}
-
-.wrapper.home-content>div {
-  width: 50%;
 }
 
 .wrapper.home-content>div .btn {
@@ -473,11 +466,6 @@ button {
   justify-content: space-between;
 }
 
-.wrapper.flex-row .about-img {
-  width: 40%;
-  position: relative;
-}
-
 .wrapper.flex-row .about-img>a {
   position: absolute;
   top: 50%;
@@ -507,8 +495,6 @@ button {
 }
 
 .wrapper.flex-row .about-content {
-  width: 60%;
-  padding-left: 50px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -604,11 +590,6 @@ button {
   justify-content: space-between;
 }
 
-.wrapper.flex-row .chefs-item {
-  width: calc(25% - 20px);
-  margin-bottom: 20px;
-}
-
 .wrapper.flex-row .chefs-item img {
   width: 100%;
   display: block;
@@ -695,9 +676,7 @@ button {
 }
 
 .menu-item.flex-row .single-menu-item {
-  width: calc(25% - 20px);
   margin-right: 20px;
-  margin-bottom: 40px;
 }
 
 .menu-item.flex-row .single-menu-item a {
@@ -735,11 +714,6 @@ button {
   justify-content: flex-start;
 }
 
-.wrapper.flex-row.gallery-item a {
-  display: block;
-  width: 33.333333%;
-}
-
 .wrapper.flex-row.gallery-item a:hover img {
   -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
@@ -774,17 +748,14 @@ button {
 }
 
 .booking-form {
-  width: 60%;
   padding-right: 50px;
 }
 
 .working-hours {
-  width: 40%;
   padding: 30px;
 }
 
 .working-hours h3 {
-  font-size: 30px;
   margin-bottom: 20px;
 }
 
@@ -855,7 +826,6 @@ button:hover {
 }
 
 .flex-row.wrapp-contacts>div {
-  width: 25%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 30px;
@@ -879,9 +849,6 @@ button:hover {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 .footer-social li a {
