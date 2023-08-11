@@ -20,14 +20,6 @@
         font-size: 40px;
 
     }
-    /* .advantage.flex-row>div,
-    .wrapper.flex-row .chefs-item,
-    .menu-item.flex-row .single-menu-item,
-    .wrapper.flex-row.gallery-item a,
-    .wrapp-input-group.flex-row>div,
-    .flex-row.wrapp-contacts>div {
-        width: 33%;
-    } */
     .wrapper.flex-row .about-img {
         width: 40%;
         position: relative;
