@@ -6,6 +6,7 @@ interface MenuItem {
   name: string;
   description: string;
   price: string;
+  id: number;
 }
 
 @Component({
@@ -24,56 +25,64 @@ export class MenuComponent {
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-1.jpg',
       name: 'Double Cheese Pizza',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
-      price: '$15.30'
+      price: '$15.30',
+      id: 1
     },
     {
       tabs: ['all', 'salads'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-2.jpg',
       name: 'Seafood',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
-      price: '$23.99'
+      price: '$23.99',
+      id: 2
     },
     {
       tabs: ['all', 'burguers', 'steaks'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-3.png',
       name: 'DOUBLE MAC BURGER',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
-      price: '$13.80'
+      price: '$13.80',
+      id: 3
     },
     {
       tabs: ['all', 'pasts'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-4.jpg',
       name: 'PASTA',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
-      price: '$23.99'
+      price: '$23.99',
+      id: 4
     },
     {
       tabs: ['all', 'burguers', 'steaks'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-5.jpg',
       name: 'BEEF CHEESE BURGER',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
-      price: '$23.99'
+      price: '$23.99',
+      id: 5
     },
     {
       tabs: ['all', 'pizzas', 'steaks'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-6.jpg',
       name: 'GRAND ITALIANO PIZZA',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
-      price: '$23.99'
+      price: '$23.99',
+      id: 6
     },
     {
       tabs: ['all', 'drinks'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-7.jpg',
       name: 'LEMONADE',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
-      price: '$23.99'
+      price: '$23.99',
+      id: 7
     },
     {
       tabs: ['all', 'burguers', 'steaks'],
       imageUrl: 'https://restfood.onlywebcoding.com.ua/images/product-8.jpg',
       name: 'CHICKEN BURGER',
       description: 'Lorem ipsum dolor sit, amet consectetur adipisicing, elit.',
-      price: '$23.99'
+      price: '$23.99',
+      id: 8
     },
   ];
 

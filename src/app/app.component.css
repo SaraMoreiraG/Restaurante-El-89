@@ -702,6 +702,12 @@ button {
 .single-menu-item-content p {
   margin-bottom: 20px;
 }
+.modal-content{
+  background-color: transparent;
+}
+#btn-white{
+  color: #fff;
+}
 
 /* -------------------------------------------------------
                     GALLERY
