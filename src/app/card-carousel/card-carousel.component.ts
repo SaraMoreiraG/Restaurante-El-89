@@ -11,11 +11,11 @@ import { CarouselComponent, CarouselConfig } from 'ngx-bootstrap/carousel';
 })
 export class CardCarouselComponent implements OnInit {
   cards: { img: string; title: string; description: string; price: string }[] = [
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-1.png', title: 'BURGER', description: 'Lorem ipsum dolor sit, amet consectetur adipisci velit', price: '$12,3' },
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-3.jpg', title: 'Beef Burger Meal', description: 'Lorem ipsum dolor sit, amet consectetur adipisci velit', price: '20$' },
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-4.jpg', title: 'Double Cheese Pizza', description: 'Lorem ipsum dolor sit, amet consectetur adipisci velit', price: '15$' },
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-5.png', title: 'Ceaser Salad', description: 'Lorem ipsum dolor sit, amet consectetur adipisci velit', price: '18$' },
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-2.jpg', title: 'Pasta', description: 'Lorem ipsum dolor sit, amet consectetur adipisci velit', price: '22$' },
+    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-1.png', title: 'BURGER', description: 'Exquisita hamburguesa artesanal.', price: '12,3€' },
+    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-3.jpg', title: 'Beef Burger Meal', description: 'Satisfacción en cada bocado.', price: '20€' },
+    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-4.jpg', title: 'Cheese Pizza', description: 'Doble queso, doble sabor.', price: '15€' },
+    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-5.png', title: 'Ceaser Salad', description: 'Frescura y sabor en cada hoja.', price: '18€' },
+    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-2.jpg', title: 'Pasta', description: 'Sabor auténtico en cada tenedor.', price: '22€' },
   ];
 
   // Get a reference to the carousel component
