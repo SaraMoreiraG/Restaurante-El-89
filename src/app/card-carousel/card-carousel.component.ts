@@ -14,7 +14,7 @@ export class CardCarouselComponent implements OnInit {
     { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-1.png', title: 'BURGER', description: 'Exquisita hamburguesa artesanal.', price: '12,3€' },
     { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-3.jpg', title: 'Beef Burger Meal', description: 'Satisfacción en cada bocado.', price: '20€' },
     { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-4.jpg', title: 'Cheese Pizza', description: 'Doble queso, doble sabor.', price: '15€' },
-    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-5.png', title: 'Ceaser Salad', description: 'Frescura y sabor en cada hoja.', price: '18€' },
+    { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-5.png', title: 'Ensalada César', description: 'Frescura y sabor en cada hoja.', price: '18€' },
     { img: 'https://restfood.onlywebcoding.com.ua/images/special-dishes-2.jpg', title: 'Pasta', description: 'Sabor auténtico en cada tenedor.', price: '22€' },
   ];
 

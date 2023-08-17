@@ -11,12 +11,12 @@ export class NavbarComponent {
   isTransparentBg = true;
 
   menuItems = [
-    { label: 'HOME', link: '#home' },
+    { label: 'INICIO', link: '#home' },
     { label: 'ABOUT US', link: '#about-us' },
     { label: 'TEAM', link: '#chefs' },
     { label: 'MENU', link: '#menu' },
-    { label: 'GALLERY', link: '#gallery' },
-    { label: 'CONTACT', link: '#contacts' }
+    { label: 'GALERIA', link: '#gallery' },
+    { label: 'CONTACTO', link: '#contacts' }
   ];
 
   toggleMenu() {
