@@ -11,7 +11,6 @@ export class MockBackendService {
 
   submitForm(formData: any) {
     // Simulate a successful response after a brief delay
-    console.log('Mocking')
     return of({ success: true }).pipe(delay(1000));
   }
 }

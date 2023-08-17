@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { MockBackendService } from '../services/mock-backend.service'; // Import the MockBackendService
 
 @Component({
   selector: 'booking-form',
@@ -11,7 +12,10 @@ export class BookingFormComponent {
   displayResultMessage: boolean = false;
   resultMessage: string = '';
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor(
+    private formBuilder: FormBuilder,
+    private mockBackendService: MockBackendService // Inject the MockBackendService
+  ) {
     this.reservationForm = this.formBuilder.group({
       name: ['', Validators.required],
       lastname: ['', Validators.required],
@@ -30,15 +34,21 @@ export class BookingFormComponent {
   }
 
   submitForm() {
-    console.log(this.reservationForm);
     if (!this.reservationForm.valid) {
       this.resultMessage = 'Por favor, completa todos los campos.';
       this.displayResultMessage = true;
     } else {
-      // Perform form submission logic here
-      this.resultMessage = 'Gracias por reservar. Nos pondremos en contacto contigo pronto.';
-      this.displayResultMessage = true;
-      this.reservationForm.reset();
+      this.mockBackendService.submitForm(this.reservationForm.value) // Call the mock backend service
+        .subscribe(response => {
+          this.resultMessage = 'Gracias por reservar. Nos pondremos en contacto contigo pronto.';
+          this.displayResultMessage = true;
+          this.reservationForm.reset();
+
+          setTimeout(() => {
+            this.resultMessage = '';
+            this.displayResultMessage = false;
+          }, 5000);
+        });
     }
   }
 }

@@ -27,7 +27,7 @@
 	  <button type="submit" id="send" class="btn">Reserva online</button>
 	</div>
 	<p class="result" [style.display]="displayResultMessage ? 'block' : 'none'">
-		<span [ngClass]="{'error': !reservationForm.valid, 'send': reservationForm.valid}">
+		<span [ngClass]="{'error': resultMessage === 'Por favor, completa todos los campos.', 'send': resultMessage === 'Gracias por reservar. Nos pondremos en contacto contigo pronto.'}">
 		  {{ resultMessage }}
 		</span>
 	  </p>
