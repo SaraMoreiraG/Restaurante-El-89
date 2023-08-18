@@ -12,8 +12,8 @@ export class NavbarComponent {
 
   menuItems = [
     { label: 'INICIO', link: '#home' },
-    { label: 'ABOUT US', link: '#about-us' },
-    { label: 'TEAM', link: '#chefs' },
+    { label: 'SOBRE NOSOTROS', link: '#about-us' },
+    { label: 'CHEFS', link: '#chefs' },
     { label: 'MENU', link: '#menu' },
     { label: 'GALERIA', link: '#gallery' },
     { label: 'CONTACTO', link: '#contacts' }

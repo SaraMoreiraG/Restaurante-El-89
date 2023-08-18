@@ -10,7 +10,7 @@
 
   <!-- Menu for larger screens -->
   <nav id="nav" [ngStyle]="{ 'display': !isSmallScreen ? 'flex' : 'none' }">
-    <ul class="menu-big">
+    <ul class="menu-big p-0">
       <li *ngFor="let item of menuItems"><a [href]="item.link">{{ item.label }}</a></li>
     </ul>
   </nav>
