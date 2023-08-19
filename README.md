@@ -2,6 +2,7 @@
 
 Welcome to our restaurant's website! This project was built using Angular, TypeScript, HTML, CSS, and Bootstrap to showcase our restaurant's menu, allow table reservations, display a photo gallery, and even integrate Google Maps API for easy navigation to our location.
 
+<p align="center">See live [clicking here](https://saramoreirag.github.io/restaurante-el89/)</p>
 ![Restaurant Website Screenshot](src/app/img/home%20img.png)
 
 <p align="center">
