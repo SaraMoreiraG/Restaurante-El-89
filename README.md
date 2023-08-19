@@ -14,12 +14,12 @@ Welcome to our restaurant's website! This project was built using Angular, TypeS
 
 ## Technologies Used
 
-- [Angular](https://angular.io/)
-- [TypeScript](https://www.typescriptlang.org/)
-- HTML: HyperText Markup Language
-- CSS: Cascading Style Sheets
-- [Bootstrap](https://getbootstrap.com/)
-- [Google Maps API](https://developers.google.com/maps)
+- <i class="fab fa-angular"></i> [Angular](https://angular.io/)
+- <i class="fab fa-js"></i> [TypeScript](https://www.typescriptlang.org/)
+- <i class="fab fa-html5"></i> HTML: HyperText Markup Language
+- <i class="fab fa-css3"></i> CSS: Cascading Style Sheets
+- <i class="fab fa-bootstrap"></i> [Bootstrap](https://getbootstrap.com/)
+- <i class="fas fa-map-marker-alt"></i> [Google Maps API](https://developers.google.com/maps)
 
 ## Installation
 
