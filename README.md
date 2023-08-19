@@ -3,13 +3,13 @@
 Welcome to our restaurant's website! This project was built using Angular, TypeScript, HTML, CSS, and Bootstrap to showcase our restaurant's menu, allow table reservations, display a photo gallery, and even integrate Google Maps API for easy navigation to our location.
 
 <p align="center">
-	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png' alt='html'>
-	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png' alt='css'>
-	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png' alt='bootstrap'>
-	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png' alt='angular'>
-	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png' alt='typescript'>
+	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png' alt='html' width='40'>
+	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png' alt='css' width='40'>
+	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png' alt='bootstrap' width='40'>
+	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png' alt='angular' width='40'>
+	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png' alt='typescript' width='40'>
 	<img src='https://cdn.iconscout.com/icon/free/png-256/free-google-maps-2863735-2378123.png'
-	alt='google maps api'>
+	alt='google maps api' width='40'>
 </p>
 
 ## Features
