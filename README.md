@@ -2,6 +2,15 @@
 
 Welcome to our restaurant's website! This project was built using Angular, TypeScript, HTML, CSS, and Bootstrap to showcase our restaurant's menu, allow table reservations, display a photo gallery, and even integrate Google Maps API for easy navigation to our location.
 
+<p align="center">
+	<img src='https://icon2.cleanpng.com/20180426/zue/kisspng-web-development-html-responsive-web-design-cascadi-5ae19e6b1412f6.0023511515247355950822.jpg' alt='html'>
+	<img src='https://w7.pngwing.com/pngs/4/808/png-transparent-css3-css3-logo-logo-language-programming-language-css-3d-icon-thumbnail.png' alt='css'>
+	<img src='https://e7.pngegg.com/pngimages/168/618/png-clipart-responsive-web-design-web-development-bootstrap-cascading-style-sheets-web-browser-world-wide-web-purple-web-design.png' alt='bootstrap'>
+	<img src='https://e7.pngegg.com/pngimages/620/322/png-clipart-angularjs-ruby-on-rails-typescript-web-application-icon-hacker-angle-triangle.png' alt='angular'>
+	<img src='https://w7.pngwing.com/pngs/166/889/png-transparent-polynesian-cultural-center-google-maps-api-11-angle-text-rectangle.png'
+	alt='google maps api'>
+</p>
+
 ## Features
 
 - Browse our delicious menu offerings.
@@ -14,12 +23,12 @@ Welcome to our restaurant's website! This project was built using Angular, TypeS
 
 ## Technologies Used
 
-- <i class="fab fa-angular"></i> [Angular](https://angular.io/)
-- <i class="fab fa-js"></i> [TypeScript](https://www.typescriptlang.org/)
-- <i class="fab fa-html5"></i> HTML: HyperText Markup Language
-- <i class="fab fa-css3"></i> CSS: Cascading Style Sheets
-- <i class="fab fa-bootstrap"></i> [Bootstrap](https://getbootstrap.com/)
-- <i class="fas fa-map-marker-alt"></i> [Google Maps API](https://developers.google.com/maps)
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- HTML: HyperText Markup Language
+- CSS: Cascading Style Sheets
+- [Bootstrap](https://getbootstrap.com/)
+- [Google Maps API](https://developers.google.com/maps)
 
 ## Installation
 
