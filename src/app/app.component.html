@@ -1,146 +1,94 @@
 <navbar></navbar>
 
 <main>
-  <section id="home" class="flex-row">
-    <div class="wrapper home-content">
-      <div>
-        <h1>Comida de Calidad Insuperable</h1>
-        <p>¡Bienvenidos! Disfruten de nuestra deliciosa comida y acogedor ambiente, donde la pasión culinaria se une con un servicio excepcional.</p>
-        <button class="btn booking-scroll" (click)="scrollToBookingTable()">Reserva online</button>
-      </div>
-    </div>
-  </section>
+	<section id="home" class="flex-row">
+		<div class="wrapper home-content">
+			<div>
+				<h1>Comida de Calidad Insuperable</h1>
+				<p>
+					¡Bienvenidos! Disfruten de nuestra deliciosa comida y acogedor
+					ambiente, donde la pasión culinaria se une con un servicio
+					excepcional.
+				</p>
+				<button class="btn booking-scroll" (click)="scrollToBookingTable()">
+					Reserva online
+				</button>
+			</div>
+		</div>
+	</section>
 
-  <section id="special-dishes">
-    <div class="title-center">
-      <h2>platos destacados</h2>
-      <p>Descubre nuestros platos destacados, cuidadosamente elaborados para deleitar tu paladar. Una fusión de sabores que te llevarán en un viaje culinario único..</p>
-    </div>
-    <div class="wrapper">
-      <card-carousel></card-carousel>
-    </div>
-  </section>
+	<section id="special-dishes">
+		<div class="title-center">
+			<h2>platos destacados</h2>
+			<p>
+				Descubre nuestros platos destacados, cuidadosamente elaborados para
+				deleitar tu paladar. Una fusión de sabores que te llevarán en un viaje
+				culinario único..
+			</p>
+		</div>
+		<div class="wrapper">
+			<card-carousel></card-carousel>
+		</div>
+	</section>
 
-  <section id="about-us">
-    <about></about>
-  </section>
+	<section id="about-us">
+		<about></about>
+	</section>
 
-  <section id="offer">
-    <div class="wrapper">
-      <h2>DOUBLE CHEESE PIZZA
-        <br> 30% DESCUENTO
-      </h2>
-      <a class="btn booking-scroll" (click)="scrollToBookingTable()">RESERVA ONLINE</a>
-    </div>
-  </section>
+	<section id="offer">
+		<div class="wrapper">
+			<h2>
+				DOUBLE CHEESE PIZZA <br />
+				30% DESCUENTO
+			</h2>
+			<a class="btn booking-scroll" (click)="scrollToBookingTable()"
+				>RESERVA ONLINE</a
+			>
+		</div>
+	</section>
 
-  <section id="chefs">
-    <div class="title-center">
-      <h2>Nuestro equipo</h2>
-      <p>Nuestro talentoso equipo fusiona pasión y pericia para crear experiencias culinarias excepcionales. Conoce a los maestros detrás de cada plato.</p>
-    </div>
-    <div class="wrapper flex-row">
-      <div class="chefs-item">
-        <img src="https://restfood.onlywebcoding.com.ua/images/chef-1.jpg" />
-        <div class="about-chefs">
-          <h3>francisco moreira</h3>
-          <p>Chef</p>
-          <ul class="chef-social">
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=100069532132120" target=”_blank”><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/cafe_bar_89/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="chefs-item">
-        <img src="https://restfood.onlywebcoding.com.ua/images/chef-2.jpg" />
-        <div class="about-chefs">
-          <h3>candida melgo</h3>
-          <p>Chef</p>
-          <ul class="chef-social">
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=100069532132120" target=”_blank”><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/cafe_bar_89/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="chefs-item">
-        <img src="https://restfood.onlywebcoding.com.ua/images/chef-3.jpg" />
-        <div class="about-chefs">
-          <h3>miguel moreira</h3>
-          <p>Camarero</p>
-          <ul class="chef-social">
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=100069532132120" target=”_blank”><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/cafe_bar_89/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="chefs-item">
-        <img src="https://restfood.onlywebcoding.com.ua/images/chef-4.jpg" />
-        <div class="about-chefs">
-          <h3>chung lee</h3>
-          <p>Camarero</p>
-          <ul class="chef-social">
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=100069532132120" target=”_blank”><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/cafe_bar_89/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+	<section id="chefs">
+		<team></team>
+	</section>
 
-  <menu></menu>
+	<menu></menu>
 
-  <section id="gallery">
-    <div class="title-center">
-      <h2>Galeria</h2>
-    </div>
-    <div class="wrapper flex-row gallery-item zoom-gallery">
-      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-1.jpg">
-        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-1.jpg">
-      </a>
-      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-2.jpg">
-        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-2.jpg">
-      </a>
-      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-3.jpg">
-        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-3.jpg">
-      </a>
-      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-4.jpg">
-        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-4.jpg">
-      </a>
-      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-5.jpg">
-        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-5.jpg">
-      </a>
-      <a href="https://restfood.onlywebcoding.com.ua/images/gallery-6.jpg">
-        <img src="https://restfood.onlywebcoding.com.ua/images/gallery-6.jpg">
-      </a>
-    </div>
-  </section>
+	<section id="gallery">
+		<div class="title-center">
+			<h2>Galeria</h2>
+		</div>
+		<div class="wrapper flex-row gallery-item zoom-gallery">
+			<a href="https://restfood.onlywebcoding.com.ua/images/gallery-1.jpg">
+				<img src="https://restfood.onlywebcoding.com.ua/images/gallery-1.jpg" />
+			</a>
+			<a href="https://restfood.onlywebcoding.com.ua/images/gallery-2.jpg">
+				<img src="https://restfood.onlywebcoding.com.ua/images/gallery-2.jpg" />
+			</a>
+			<a href="https://restfood.onlywebcoding.com.ua/images/gallery-3.jpg">
+				<img src="https://restfood.onlywebcoding.com.ua/images/gallery-3.jpg" />
+			</a>
+			<a href="https://restfood.onlywebcoding.com.ua/images/gallery-4.jpg">
+				<img src="https://restfood.onlywebcoding.com.ua/images/gallery-4.jpg" />
+			</a>
+			<a href="https://restfood.onlywebcoding.com.ua/images/gallery-5.jpg">
+				<img src="https://restfood.onlywebcoding.com.ua/images/gallery-5.jpg" />
+			</a>
+			<a href="https://restfood.onlywebcoding.com.ua/images/gallery-6.jpg">
+				<img src="https://restfood.onlywebcoding.com.ua/images/gallery-6.jpg" />
+			</a>
+		</div>
+	</section>
 
-  <section id="booking-table">
-    <div class="title-center">
-      <h2>Reserva tu mesa</h2>
-    </div>
-    <booking-form></booking-form>
-  </section>
+	<section id="booking-table">
+		<div class="title-center">
+			<h2>Reserva tu mesa</h2>
+		</div>
+		<booking-form></booking-form>
+	</section>
 </main>
 
 <footer id="contacts"></footer>
 
 <a class="btn" id="scroll-top" href="#" *ngIf="hasScrolledPastHome">
-  <i class="fa-solid fa-arrow-up-long"></i>
+	<i class="fa-solid fa-arrow-up-long"></i>
 </a>

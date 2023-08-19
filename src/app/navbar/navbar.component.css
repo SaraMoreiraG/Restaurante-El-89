@@ -24,7 +24,7 @@ a {
 	margin: 0 auto;
 }
 .isTransparentBg {
-  background-color: transparent;
+	background-color: transparent;
 }
 .wrapper a:hover,
 .fa-solid:hover {
@@ -42,12 +42,12 @@ a {
 	flex-direction: row;
 }
 @media screen and (max-width: 992px) {
-/* Hide the menu on smaller screens */
+	/* Hide the menu on smaller screens */
 	nav {
 		display: none;
 	}
 }
-.menu-small{
+.menu-small {
 	list-style: none;
 }
 .offcanvas {
