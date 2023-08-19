@@ -1,27 +1,28 @@
-# RestauranteEl89
+# Restaurant Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Welcome to our restaurant's website! This project was built using Angular, TypeScript, HTML, CSS, and Bootstrap to showcase our restaurant's menu, allow table reservations, display a photo gallery, and even integrate Google Maps API for easy navigation to our location.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Browse our delicious menu offerings.
+- Reserve a table online with ease.
+- Explore a gallery of mouth-watering food images.
+- Navigate to our location using the integrated Google Maps API.
+- Responsive design for seamless viewing on different devices.
+- Built using Angular framework for dynamic and interactive user experience.
+- Styling with CSS and enhanced with Bootstrap components.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- HTML: HyperText Markup Language
+- CSS: Cascading Style Sheets
+- [Bootstrap](https://getbootstrap.com/)
+- [Google Maps API](https://developers.google.com/maps)
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/restaurant-website.git
