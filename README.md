@@ -4,10 +4,11 @@ Welcome to our restaurant's website! This project was built using Angular, TypeS
 
 <p align="center">
 	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png' alt='html'>
-	<img src='https://w7.pngwing.com/pngs/4/808/png-transparent-css3-css3-logo-logo-language-programming-language-css-3d-icon-thumbnail.png' alt='css'>
-	<img src='https://e7.pngegg.com/pngimages/168/618/png-clipart-responsive-web-design-web-development-bootstrap-cascading-style-sheets-web-browser-world-wide-web-purple-web-design.png' alt='bootstrap'>
-	<img src='https://e7.pngegg.com/pngimages/620/322/png-clipart-angularjs-ruby-on-rails-typescript-web-application-icon-hacker-angle-triangle.png' alt='angular'>
-	<img src='https://w7.pngwing.com/pngs/166/889/png-transparent-polynesian-cultural-center-google-maps-api-11-angle-text-rectangle.png'
+	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png' alt='css'>
+	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png' alt='bootstrap'>
+	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png' alt='angular'>
+	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png' alt='typescript'>
+	<img src='https://cdn.iconscout.com/icon/free/png-256/free-google-maps-2863735-2378123.png'
 	alt='google maps api'>
 </p>
 
