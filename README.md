@@ -3,7 +3,7 @@
 Welcome to our restaurant's website! This project was built using Angular, TypeScript, HTML, CSS, and Bootstrap to showcase our restaurant's menu, allow table reservations, display a photo gallery, and even integrate Google Maps API for easy navigation to our location.
 
 <p align="center">
-	<img src='https://icon2.cleanpng.com/20180426/zue/kisspng-web-development-html-responsive-web-design-cascadi-5ae19e6b1412f6.0023511515247355950822.jpg' alt='html'>
+	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png' alt='html'>
 	<img src='https://w7.pngwing.com/pngs/4/808/png-transparent-css3-css3-logo-logo-language-programming-language-css-3d-icon-thumbnail.png' alt='css'>
 	<img src='https://e7.pngegg.com/pngimages/168/618/png-clipart-responsive-web-design-web-development-bootstrap-cascading-style-sheets-web-browser-world-wide-web-purple-web-design.png' alt='bootstrap'>
 	<img src='https://e7.pngegg.com/pngimages/620/322/png-clipart-angularjs-ruby-on-rails-typescript-web-application-icon-hacker-angle-triangle.png' alt='angular'>
