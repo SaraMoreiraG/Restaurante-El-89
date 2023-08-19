@@ -11,6 +11,8 @@ import { CardCarouselComponent } from './card-carousel/card-carousel.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { BookingFormComponent } from './booking-form/booking-form.component';
+import { AboutComponent } from './about/about.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { BookingFormComponent } from './booking-form/booking-form.component';
     MenuComponent,
     FooterComponent,
     BookingFormComponent,
+    AboutComponent,
+    TeamComponent,
   ],
   imports: [
     BrowserModule,

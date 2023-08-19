@@ -12,7 +12,7 @@ interface MenuItem {
 @Component({
   selector: 'menu',
   templateUrl: './menu.component.html',
-  styleUrls: ['../app.component.css'],
+  styleUrls: ['../app.component.css', './menu.component.css'],
 })
 export class MenuComponent {
   activeTab: string = 'todo';

@@ -1,34 +1,54 @@
-<form [formGroup]="reservationForm" (ngSubmit)="submitForm()">
-	<div class="wrapp-input-group flex-row">
-	  <div>
-		<p><label for="name">Nombre</label></p>
-		<input type="text" placeholder="Nombre" id="name" formControlName="name" required/>
-	  </div>
-	  <div>
-		<p><label for="lastname">Apellidos</label></p>
-		<input type="text" placeholder="Apellidos" id="lastname" formControlName="lastname" />
-	  </div>
-	  <div>
-		<p><label for="phone">Teléfono</label></p>
-		<input type="tel" placeholder="Teléfono" id="phone" formControlName="phone" />
-	  </div>
-	  <div>
-		<p><label for="email">Email</label></p>
-		<input type="email" placeholder="Email" id="email" formControlName="email" />
-	  </div>
-	  <div>
-		<p><label for="date">Fecha</label></p>
-		<input type="text" placeholder="dd-mm-aa" id="date" formControlName="date" />
-	  </div>
-	  <div>
-		<p><label for="time">Hora</label></p>
-		<input type="text" placeholder="12:00 AM" id="time" formControlName="time" />
-	  </div>
-	  <button type="submit" id="send" class="btn">Reserva online</button>
+<div class="wrapper flex-row wrapp-booking-form">
+	<div class="booking-form">
+		<form [formGroup]="reservationForm" (ngSubmit)="submitForm()">
+			<div class="wrapp-input-group flex-row">
+			<div>
+				<p><label for="name">Nombre</label></p>
+				<input type="text" placeholder="Nombre" id="name" formControlName="name" required/>
+			</div>
+			<div>
+				<p><label for="lastname">Apellidos</label></p>
+				<input type="text" placeholder="Apellidos" id="lastname" formControlName="lastname" />
+			</div>
+			<div>
+				<p><label for="phone">Teléfono</label></p>
+				<input type="tel" placeholder="Teléfono" id="phone" formControlName="phone" />
+			</div>
+			<div>
+				<p><label for="email">Email</label></p>
+				<input type="email" placeholder="Email" id="email" formControlName="email" />
+			</div>
+			<div>
+				<p><label for="date">Fecha</label></p>
+				<input type="text" placeholder="dd-mm-aa" id="date" formControlName="date" />
+			</div>
+			<div>
+				<p><label for="time">Hora</label></p>
+				<input type="text" placeholder="12:00 AM" id="time" formControlName="time" />
+			</div>
+			<button type="submit" id="send" class="btn">Reserva online</button>
+			</div>
+			<p class="result mt-2" [style.display]="displayResultMessage ? 'block' : 'none'">
+				<span [ngClass]="{'error': resultMessage === 'Por favor, completa todos los campos.', 'send': resultMessage === 'Gracias por reservar. Nos pondremos en contacto contigo pronto.'}">
+				{{ resultMessage }}
+				</span>
+			</p>
+		</form>
 	</div>
-	<p class="result" [style.display]="displayResultMessage ? 'block' : 'none'">
-		<span [ngClass]="{'error': resultMessage === 'Por favor, completa todos los campos.', 'send': resultMessage === 'Gracias por reservar. Nos pondremos en contacto contigo pronto.'}">
-		  {{ resultMessage }}
-		</span>
-	  </p>
-</form>
+	<div class="working-hours">
+        <h3>Horario de apertura</h3>
+        <p>Ven y únete a nosotros en nuestro espacio acogedor. Experimenta nuestra pasión culinaria y ambiente excepcional. ¡Esperamos verte pronto!</p>
+        <div class="flex-row table-hours">
+          <p>Lunes - Viernes</p>
+          <p>8AM - 6PM</p>
+        </div>
+        <div class="flex-row table-hours">
+          <p>Sábados</p>
+          <p>9AM - 5PM</p>
+        </div>
+        <div class="flex-row table-hours">
+          <p>Domingos</p>
+          <p>9AM - 4PM</p>
+        </div>
+    </div>
+</div>

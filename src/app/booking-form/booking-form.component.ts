@@ -5,7 +5,7 @@ import { MockBackendService } from '../services/mock-backend.service'; // Import
 @Component({
   selector: 'booking-form',
   templateUrl: './booking-form.component.html',
-  styleUrls: ['../app.component.css']
+  styleUrls: ['../app.component.css', './booking-form.component.css']
 })
 export class BookingFormComponent {
   reservationForm: FormGroup;
