@@ -1,4 +1,4 @@
-<div class="wrapper flex-row p-0" [class.isTransparentBg]="isTransparentBg">
+<div class="navbar" [class.isTransparentBg]="isTransparentBg">
 	<a id="logo" href="#home">
 		<img src="https://restfood.onlywebcoding.com.ua/images/logo.png" />
 	</a>
@@ -18,8 +18,13 @@
 	<!-- Menu for larger screens -->
 	<nav id="nav" [ngStyle]="{ display: !isSmallScreen ? 'flex' : 'none' }">
 		<ul class="menu-big p-0">
-			<li *ngFor="let item of menuItems">
-				<a [href]="item.link">{{ item.label }}</a>
+			<li *ngFor="let item of menuItems" >
+				<a
+					[href]="item.link"
+					[class.active]="activeSection === item.link.slice(1)"
+				>
+					{{ item.label }}
+				</a>
 			</li>
 		</ul>
 	</nav>

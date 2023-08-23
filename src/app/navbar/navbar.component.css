@@ -1,3 +1,21 @@
+.navbar {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 120px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0 5em;
+	margin: 0 auto;
+	z-index: 100;
+	font-family: "Poppins", sans-serif;
+}
+.active {
+	color: #fdca33;
+}
 .flex-row {
 	z-index: 100;
 }
@@ -9,19 +27,6 @@ a {
 	text-decoration: none;
 	margin: 0 10px;
 	padding: 5px 10px;
-}
-.wrapper {
-	background-color: black;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 120px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	padding: 0 4em;
-	margin: 0 auto;
 }
 .isTransparentBg {
 	background-color: transparent;

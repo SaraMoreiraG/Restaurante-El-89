@@ -9,6 +9,7 @@ export class NavbarComponent {
 	showMenu = false;
 	isSmallScreen = window.innerWidth <= 992;
 	isTransparentBg = true;
+	activeSection: string | null = null;
 
 	menuItems = [
 		{label: "INICIO", link: "#home"},
@@ -38,6 +39,23 @@ export class NavbarComponent {
 
 	@HostListener("window:scroll", [])
 	onWindowScroll() {
+		// Determine the active section based on scrolling
+		const sections = ["about-us", "chefs", "menu", "gallery", "contacts"];
+		const scrollPosition = window.scrollY;
+		let activeSection: string | null = null;
+
+		for (const section of sections) {
+			const element = document.getElementById(section);
+			if (element) {
+				const offsetTop = element.offsetTop;
+				if (scrollPosition >= offsetTop - 120) {
+				activeSection = section;
+				}
+			}
+		}
+
+		this.activeSection = activeSection;
+
 		// Check if the user has scrolled and remove the transparent background class
 		this.isTransparentBg = window.scrollY < 90;
 	}
